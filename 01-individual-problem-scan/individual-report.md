@@ -140,7 +140,9 @@ Benchmark: Microsoft: 11 phút 13 giây với Copilot cho cùng tác vụ.
 Fallback: Nếu AI không chắc owner/deadline hoặc bỏ sót nội dung hiển thị transcript gốc và yêu cầu người dùng xác nhận.
 ```
 
-File đính kèm (nếu vẽ riêng): `01-individual-problem-scan-workflow-card-1.png`
+**Photocard Card #1 — Biên bản họp có AI hỗ trợ:**
+
+![Photocard Card 1: Meeting → Transcript → AI summarize → Human review → Confirm + send](01-individual-problem-scan-workflow-card-1.png)
 
 ---
 
@@ -226,7 +228,9 @@ FUTURE STATE
 Fallback: Email có thông tin mơ hồ hoặc AI confidence thấp → không tự tạo event, yêu cầu người dùng xác nhận.
 ```
 
-File đính kèm: `01-individual-problem-scan-workflow-card-2.png`
+**Photocard Card #2 — Email thành lịch Calendar:**
+
+![Photocard Card 2: New email → AI classify/extract → Draft event → User review → Add to Calendar](01-individual-problem-scan-workflow-card-2.png)
 
 ---
 
@@ -317,7 +321,9 @@ Nếu error → AI summarize/explain log
 Fallback: Nếu monitoring service lỗi, user vẫn truy cập trực tiếp terminal/log như hiện tại.
 ```
 
-File đính kèm: `01-individual-problem-scan-workflow-card-3.png`
+**Photocard Card #3 — Theo dõi job build/train/test:**
+
+![Photocard Card 3: Start job → Automatic monitoring → Job status → User review → AI explain error](01-individual-problem-scan-workflow-card-3.png)
 
 ---
 
@@ -355,5 +361,4 @@ Microsoft Work Trend Index cho thấy nhóm 25% người dùng email nhiều nh�
 - [X] Có 5+ problems + top 3 Cards đủ field
 - [X] Mỗi Card có workflow trước/sau + bottleneck + metric + fallback
 - [X] Đã chọn 1 card pitch + câu hỏi challenge
-
 
