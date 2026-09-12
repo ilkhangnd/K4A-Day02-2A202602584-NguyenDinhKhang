@@ -17,21 +17,21 @@ Ghi việc cụ thể + kết quả cụ thể. Không ghi chung chung kiểu "t
 
 | Hoạt động | Tôi đã làm gì? (việc cụ thể) | Kết quả / ảnh hưởng tới nhóm |
 |---|---|---|
-| Scan cá nhân | Scan 8 vấn đề từ lịch học, email, họp, tài liệu và việc chạy code; chọn 3 card về biên bản họp, email-to-calendar và theo dõi build/train/test. | Nhóm có thêm một cụm candidate về quản lý thông tin; các card cho thấy không phải vấn đề nào cũng cần AI. |
-| Pitch Problem Card | Pitch card email-to-calendar, nêu rõ bước đọc/trích xuất email là bottleneck và đề xuất chỉ tạo draft event. | Đưa vào thảo luận câu hỏi: rule/filter có đủ không và user nên xác nhận ở đâu để tránh lịch sai. |
-| Challenge bài của bạn khác | Hỏi nhóm phải phân biệt bước nào rule xử lý được với bước nào thật sự cần AI; đặc biệt chú ý rủi ro AI tự kết luận hoặc tự sửa. | Thảo luận chuyển từ “làm Agent” sang so sánh baseline Rule, Workflow và Agent trên cùng một candidate. |
-| Gom trùng / cluster | Góp phần đọc các candidate theo actor, workflow và bottleneck thay vì theo độ “hay” của ý tưởng. | Nhóm thấy rõ cụm Dataset và tracking QA có pain hẹp, đo được và có data pilot. |
-| Chọn candidate problem | Đồng thuận chọn ID switch detection vì bottleneck là tìm đoạn lỗi, không phải thao tác đổi ID. | Scope được thu hẹp thành flag/xếp hạng candidate để người kiểm tra, thay vì tự sửa toàn bộ annotation. |
-| Validation / research | Rà link survey MOT, ByteTrack, CLIP-ReID, Ultralytics và TrackEval; phân biệt evidence về thách thức MOT với evidence về ROI của nhóm. | Bổ sung research có link kiểm được và giữ quyết định Not Yet vì vẫn thiếu survey/interview độc lập, bấm giờ baseline và ground truth. |
-| Workflow nhóm | Cùng dựng workflow trước/sau, chỉ ra bước xem tuần tự và tua lại là bottleneck; nêu fallback khi model lỗi hoặc confidence thấp. | Human review là boundary trước bước sửa ID, file annotation gốc được giữ để rollback. |
-| Problem Statement | Góp phần làm rõ actor, intervention point, metric thời gian/recall/precision và phần không làm. | Problem Statement v1 tránh hứa “AI phát hiện và sửa” trên toàn bộ dataset. |
-| Rule / Workflow / Agent | So sánh rule tạo candidate với workflow có ReID scoring và Agent tự hành động. | Chọn Workflow có đường đi cố định; Agent không phù hợp vì khó audit và vượt boundary. |
-| Decision | Ủng hộ Not Yet thay vì Go ngay. | Nhóm có điều kiện rõ để chuyển Go: ground truth review chéo, benchmark rule-only và cải thiện đo được. |
+| Scan cá nhân | Mình ghi lại 8 vấn đề mình hay gặp khi học, họp, xử lý email, tài liệu và chạy code; sau đó chọn 3 bài đủ cụ thể để kể với nhóm. | Nhóm có thêm một góc nhìn về quản lý thông tin và thấy rõ: có bài chỉ cần quy trình hoặc rule là đủ. |
+| Pitch Problem Card | Mình pitch bài email-to-calendar, tập trung vào lúc phải đọc email rồi tự nhặt ngày giờ để nhập lịch. | Câu hỏi “rule/filter đã đủ chưa?” khiến nhóm nói kỹ hơn về bước người dùng cần xác nhận để không tạo lịch sai. |
+| Challenge bài của bạn khác | Mình hỏi từng bước nào thật sự cần AI, bước nào có thể làm bằng rule trước; cũng nhắc đến rủi ro nếu hệ thống tự kết luận hoặc tự sửa. | Nhóm bớt nhìn Agent như lựa chọn mặc định và bắt đầu so sánh Rule, Workflow, Agent trên cùng một bài. |
+| Gom trùng / cluster | Mình cùng nhóm đọc các ý theo người gặp vấn đề, quy trình và điểm nghẽn, thay vì chỉ chọn ý nghe hấp dẫn. | Nhờ vậy, cụm dataset và tracking QA nổi lên vì scope hẹp, dễ đo và có dữ liệu để thử. |
+| Chọn candidate problem | Mình đồng ý chọn ID switch vì phần mệt nhất là tìm đoạn lỗi chứ không phải thao tác đổi ID. | Nhóm thu hẹp solution thành việc đánh dấu và xếp hạng đoạn nghi vấn cho người xem, không tự sửa toàn bộ annotation. |
+| Validation / research | Mình rà các link survey MOT, ByteTrack, CLIP-ReID, Ultralytics và TrackEval. | Research giúp nhóm có nền tảng, nhưng cũng nhắc cả nhóm rằng vẫn thiếu bấm giờ thực tế, ground truth và ý kiến độc lập. |
+| Workflow nhóm | Mình góp phần phác workflow trước/sau, chỉ ra chỗ phải xem tuần tự rồi tua lại nhiều lần. | Bước review của người được đặt ngay trước khi sửa, và vẫn có đường quay về rule-only hoặc review tay nếu model không ổn. |
+| Problem Statement | Mình cùng nhóm làm rõ ai dùng, AI xuất hiện ở bước nào, cần đo gì và không được làm gì. | Bản v1 không còn hứa chung chung rằng “AI sẽ phát hiện và sửa” trên cả dataset. |
+| Rule / Workflow / Agent | Mình so sánh rule tạo candidate với workflow có ReID scoring và một Agent có quyền tự hành động. | Nhóm chọn workflow cố định vì dễ kiểm tra hơn và không vượt quá phạm vi pilot. |
+| Decision | Mình ủng hộ giữ kết luận Not Yet thay vì vội Go. | Nhóm có điều kiện cụ thể để đi tiếp: ground truth review chéo, benchmark rule-only và kết quả cải thiện có thể đo. |
 
 **Dấu tay rõ nhất của tôi trong artifact cuối (1-2 câu):**
 
 ```text
-Phần tôi để lại rõ nhất là cách mô tả workflow trước/sau và human boundary: máy chỉ tạo, chấm điểm và xếp hạng candidate; người mới xác nhận và sửa ID. Tôi cũng giúp giữ các số ~50 phút và mục tiêu 15 phút ở trạng thái giả thuyết cần bấm giờ, không biến chúng thành kết luận.
+Phần mình để lại rõ nhất là workflow trước/sau và ranh giới của AI: máy chỉ tạo, chấm điểm, xếp hạng candidate; người vẫn là người xác nhận và sửa ID. Mình cũng giữ con số khoảng 50 phút và mục tiêu 15 phút ở dạng giả thuyết cần bấm giờ, thay vì viết như thể nhóm đã chứng minh xong.
 ```
 
 ---
@@ -40,13 +40,13 @@ Phần tôi để lại rõ nhất là cách mô tả workflow trước/sau và 
 
 | Phase | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai / hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| Scan | Gợi ý cách phân loại các problem theo lặp lại, thời gian, AI-fit và actor. | Giúp biến quan sát thành các câu hỏi đo được. | Có thể đề xuất pain quá rộng hoặc không thuộc trải nghiệm thật của tôi. | Giữ lại 8 pain tôi đã quan sát; bỏ ý trợ lý “toàn năng”. |
-| Problem Card | Phản biện bottleneck, metric và phương án non-AI. | Nhắc đặt human review cho email và biên bản. | Dễ làm card trông như AI cần thiết ở mọi chỗ. | Với terminal, tôi chọn notification/rule làm đáp án chính. |
-| Workflow | Gợi ý cách diễn đạt flow trước/sau. | Giúp nhìn thấy handoff và fallback. | Không biết thời gian thực tế trong dự án. | Chỉ giữ thời gian là ước lượng và yêu cầu bấm giờ trong pilot. |
-| Research | Tìm survey/paper và tài liệu công cụ để tạo danh sách nguồn ban đầu. | Giúp nhanh chóng thấy pattern về occlusion, association và ID switch. | Có thể lẫn benchmark người/xe với domain lợn. | Chỉ dùng link kiểm được; ghi rõ giới hạn transfer và không suy diễn ROI. |
-| Problem Statement | Chỉ ra các field còn mơ hồ như ground truth và định nghĩa ID switch. | Buộc mô tả intervention point và boundary cụ thể hơn. | Không thể thay nhóm quyết định threshold nào phù hợp. | Thêm precision, recall, IDSW, spot-check và human-approved correction. |
-| Rule / Workflow / Agent | Lập bảng so sánh các mức tự động hóa. | Làm rõ Agent không mặc định tốt hơn Workflow. | Có xu hướng chọn phương án phức tạp nếu prompt không giới hạn scope. | Chọn workflow cố định và chỉ cân nhắc AI sau baseline rule. |
-| Decision | Không dùng AI để chốt. | Tôi dùng AI như nguồn câu hỏi phản biện, không phải người ra quyết định. | AI không có dữ liệu pilot hoặc quyền chịu trách nhiệm với dữ liệu. | Giữ quyết định Not Yet và nêu điều kiện đo được trước khi Go. |
+| Scan | Gợi ý cách nhìn problem theo mức lặp lại, thời gian mất và người bị ảnh hưởng. | Giúp mình chuyển quan sát hằng ngày thành câu hỏi có thể đo. | Có lúc AI gợi ý pain quá rộng, không đúng với trải nghiệm của mình. | Mình chỉ giữ 8 vấn đề đã quan sát; bỏ ý tưởng trợ lý “làm hết mọi thứ”. |
+| Problem Card | Gợi ý các câu hỏi về bottleneck, metric và phương án không dùng AI. | Nhắc mình đặt bước người review cho email và biên bản. | Dễ khiến card nào cũng trông như phải có AI. | Với terminal, mình chọn notification/rule là giải pháp chính. |
+| Workflow | Hỗ trợ diễn đạt flow trước và sau rõ hơn. | Làm lộ ra handoff, fallback và chỗ cần người kiểm tra. | Không thể biết chính xác nhóm mất bao lâu trên dự án thật. | Mình giữ các con số là ước lượng và yêu cầu phải bấm giờ ở pilot. |
+| Research | Tìm survey, paper và tài liệu công cụ để có danh sách nguồn ban đầu. | Giúp thấy nhanh mối liên hệ giữa occlusion, association và ID switch. | Có nguy cơ lẫn benchmark người/xe với video lợn của nhóm. | Mình chỉ dùng link kiểm được và ghi rõ giới hạn khi áp dụng sang domain khác. |
+| Problem Statement | Chỉ ra các chỗ còn mơ hồ như ground truth và định nghĩa ID switch. | Ép nhóm nói rõ AI can thiệp ở đâu và không được làm gì. | Không thể tự đặt threshold thay cho nhóm. | Nhóm thêm precision, recall, IDSW, spot-check và human-approved correction. |
+| Rule / Workflow / Agent | Gợi ý khung so sánh ba mức tự động hóa. | Làm rõ Agent không tự nhiên tốt hơn Workflow. | Nếu không giới hạn scope, AI thường nghiêng về phương án phức tạp. | Mình chọn workflow cố định và chỉ cân nhắc AI sau baseline rule. |
+| Decision | Không dùng AI để chốt quyết định. | Mình chỉ dùng AI như người hỏi ngược, không phải người ra quyết định. | AI không có dữ liệu pilot và cũng không chịu trách nhiệm với dữ liệu đó. | Mình giữ Not Yet, kèm những điều kiện có thể đo trước khi Go. |
 
 > Nếu phase nào không dùng AI, ghi `Không dùng` và vì sao tự làm.
 
@@ -65,7 +65,7 @@ Chọn 3-4 câu trong 6 câu dưới để viết thành đoạn 8-12 câu (khô
 **Reflection:**
 
 ```text
-Khi nghe các bạn pitch, tôi nhận ra một ý tưởng có vẻ “AI” chưa chắc là bài tốt hơn một workflow đơn giản. Card theo dõi build/train/test của tôi là ví dụ rõ nhất: notification và script xử lý phần lớn pain, nên thêm Agent chỉ làm tăng phạm vi mà không giải đúng bottleneck. Với bài ID switch, tôi học được rằng thao tác sửa ID không phải chỗ khó nhất; phần đắt nhất là tìm đúng frame hoặc đoạn bắt đầu lỗi giữa rất nhiều frame bình thường. Điều này khiến tôi thay đổi cách mô tả solution từ “AI phát hiện và sửa ID switch” thành “workflow xếp hạng đoạn nghi vấn để người review”. Điều khó nhất khi viết Problem Statement là không lấy con số self-report 50 phút làm baseline đã được chứng minh. Vì vậy, tôi đồng ý giữ quyết định Not Yet dù bài toán có vẻ phù hợp với AI, vì nhóm chưa có ground truth review chéo và chưa bấm giờ đủ video. Tôi đóng góp nhiều nhất ở workflow trước/sau, nơi tôi giữ human review ngay trước bước sửa và thêm fallback quay về rule-only hoặc review thủ công. AI hữu ích khi gợi ý cấu trúc, nguồn tham khảo và điểm mơ hồ, nhưng nó không biết video lợn của nhóm có giống benchmark hay không. Nếu làm lại, tôi sẽ challenge sớm hơn về định nghĩa một ID switch “đúng”, số video pilot và ai là người gán nhãn chéo. Tôi cũng sẽ đề nghị làm một mini-survey hoặc hai cuộc phỏng vấn có lưu quote trước khi chấm điểm candidate để evidence pain không chỉ dựa vào một data owner.
+Lúc nghe các bạn pitch, mình mới thấy một ý tưởng nghe rất “AI” chưa chắc đã là bài đáng làm nhất. Bài theo dõi build/train/test của mình là ví dụ rõ nhất: một notification hoặc script đã xử lý phần lớn việc phải quay lại check terminal, nên thêm Agent chỉ làm bài toán phình to. Với bài ID switch, mình cũng hiểu ra thao tác đổi ID không phải phần tốn sức nhất. Cái mất thời gian là phải ngồi lướt qua rất nhiều frame bình thường để tìm đúng đoạn lỗi bắt đầu, nhất là lúc các con vật đi sát nhau hoặc bị che khuất. Từ đó, mình đổi cách nói về solution: không phải “AI phát hiện và sửa ID switch”, mà là “hệ thống gợi ý những đoạn đáng xem để người kiểm tra nhanh hơn”. Phần khó nhất khi viết Problem Statement là kiềm lại trước một con số nghe có vẻ thuyết phục, như 50 phút cho một vòng QA. Đó mới chỉ là self-report, nên chưa thể xem như baseline đã được chứng minh. Vì vậy, mình đồng ý giữ quyết định Not Yet dù hướng này khá hợp với AI. Phần mình đóng góp nhiều nhất là workflow trước/sau và điểm chặn human review ngay trước khi sửa, để vẫn có thể quay về rule-only hoặc review thủ công nếu model gợi ý sai. AI giúp mình tìm nguồn, gợi ý cách đặt câu hỏi và chỉ ra chỗ mơ hồ, nhưng nó không biết video lợn của nhóm có giống benchmark hay không. Nếu làm lại, mình sẽ hỏi sớm hơn về định nghĩa một ID switch “đúng”, số video pilot và người nào sẽ review chéo nhãn; đồng thời làm một mini-survey hoặc vài cuộc phỏng vấn có lưu quote ngay từ đầu.
 ```
 
 ---
