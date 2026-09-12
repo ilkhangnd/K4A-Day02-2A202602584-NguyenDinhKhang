@@ -111,8 +111,6 @@ Một số thành viên lo rằng rule dựa trên thay đổi ID/IoU đã đủ
 Điểm đau lớn nhất không nằm ở thao tác sửa ID. Nó nằm ở việc phải xem và tua qua rất nhiều frame để tìm đúng lúc lỗi bắt đầu, nhất là khi các đối tượng giao nhau hoặc che khuất nhau. Vì vậy, hướng hợp lý hơn là đánh dấu những đoạn đáng nghi để người dùng kiểm tra nhanh, thay vì để hệ thống tự sửa hoàn toàn.
 ```
 
-Bằng chứng đính kèm (nếu có): `02-group-problem-statement-survey.png`, `02-group-problem-statement-interview-notes.md` — chưa có; bổ sung sau khi chạy survey/interview.
-
 ### 4.1a. Survey / interview script cần chạy trước khi Go
 
 > Đây là kịch bản thu thập dữ liệu, chưa phải kết quả survey. Nhóm cần lưu câu trả lời gốc và chỉ trích quote khi người trả lời đồng ý.
