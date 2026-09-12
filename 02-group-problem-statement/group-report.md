@@ -171,7 +171,7 @@ Tổng baseline tạm: ~50 phút/video hoặc một vòng QA, chưa gồm bướ
 | 5 | Cùng actor | Đoạn nghi vấn | So sánh identity trước/sau giao nhau, che khuất | ~10 phút/vòng | Tua đi/tua lại nhiều lần; các cá thể giống nhau làm kết luận khó. |
 | 6 | Cùng actor | Đoạn đã đối chiếu | Timestamp/frame bắt đầu ID switch | ~3 phút/case | Human quyết định đây là switch thật hay chỉ mất detection/tái xuất hiện. |
 | 7 | Cùng actor / annotator | Track sai đã xác nhận | Track ID đã sửa và lưu | ~4 phút/case | Có thể phải sửa một dải frame sau điểm switch. |
-| 8 | Cùng actor | Annotation đã lưu | Metric/spot-check sau sửa | Chưa đo; thực hiện mỗi lần sửa | Hiện chưa có bước QA độc lập ổn định; cần thêm vào pilot. |
+| 8 | Cùng actor | Annotation đã lưu | Metric/spot-check sau sửa | Chưa được thực hiện ổn định; chỉ chạy trong pilot | Đây là guardrail dự kiến, chưa thuộc baseline current workflow nên không tính vào 5 bước thủ công. |
 
 **Bottleneck chính (2-3 câu):**
 

@@ -17,16 +17,16 @@ Ghi việc cụ thể + kết quả cụ thể. Không ghi chung chung kiểu "t
 
 | Hoạt động | Tôi đã làm gì? (việc cụ thể) | Kết quả / ảnh hưởng tới nhóm |
 |---|---|---|
-| Scan cá nhân | Mình ghi lại 8 vấn đề mình hay gặp khi học, họp, xử lý email, tài liệu và chạy code; sau đó chọn 3 bài đủ cụ thể để kể với nhóm. | Nhóm có thêm một góc nhìn về quản lý thông tin và thấy rõ: có bài chỉ cần quy trình hoặc rule là đủ. |
-| Pitch Problem Card | Mình pitch bài email-to-calendar, tập trung vào lúc phải đọc email rồi tự nhặt ngày giờ để nhập lịch. | Câu hỏi “rule/filter đã đủ chưa?” khiến nhóm nói kỹ hơn về bước người dùng cần xác nhận để không tạo lịch sai. |
-| Challenge bài của bạn khác | Mình hỏi từng bước nào thật sự cần AI, bước nào có thể làm bằng rule trước; cũng nhắc đến rủi ro nếu hệ thống tự kết luận hoặc tự sửa. | Nhóm bớt nhìn Agent như lựa chọn mặc định và bắt đầu so sánh Rule, Workflow, Agent trên cùng một bài. |
-| Gom trùng / cluster | Mình cùng nhóm đọc các ý theo người gặp vấn đề, quy trình và điểm nghẽn, thay vì chỉ chọn ý nghe hấp dẫn. | Nhờ vậy, cụm dataset và tracking QA nổi lên vì scope hẹp, dễ đo và có dữ liệu để thử. |
-| Chọn candidate problem | Mình đồng ý chọn ID switch vì phần mệt nhất là tìm đoạn lỗi chứ không phải thao tác đổi ID. | Nhóm thu hẹp solution thành việc đánh dấu và xếp hạng đoạn nghi vấn cho người xem, không tự sửa toàn bộ annotation. |
-| Validation / research | Mình rà các link survey MOT, nghiên cứu video tagging, CVAT, ByteTrack, CLIP-ReID, Ultralytics và TrackEval. | Research giúp nhóm có nền tảng, nhưng cũng nhắc cả nhóm rằng vẫn thiếu bấm giờ thực tế, ground truth và ý kiến độc lập. |
-| Workflow nhóm | Mình góp phần phác workflow trước/sau, chỉ ra chỗ phải xem tuần tự rồi tua lại nhiều lần. | Bước review của người được đặt ngay trước khi sửa, và vẫn có đường quay về rule-only hoặc review tay nếu model không ổn. |
-| Problem Statement | Mình cùng nhóm làm rõ ai dùng, AI xuất hiện ở bước nào, cần đo gì và không được làm gì. | Bản v1 không còn hứa chung chung rằng “AI sẽ phát hiện và sửa” trên cả dataset. |
-| Rule / Workflow / Agent | Mình so sánh rule tạo candidate với workflow có ReID scoring và một Agent có quyền tự hành động. | Nhóm chọn workflow cố định vì dễ kiểm tra hơn và không vượt quá phạm vi pilot. |
-| Decision | Mình ủng hộ giữ kết luận Not Yet thay vì vội Go. | Nhóm có điều kiện cụ thể để đi tiếp: ground truth review chéo, benchmark rule-only và kết quả cải thiện có thể đo. |
+| Scan cá nhân | Liệt kê 8 vấn đề thường gặp khi học, họp, xử lý email, tài liệu và chạy code; sau đó chọn 3 bài đủ cụ thể để trình bày với nhóm. | Nhóm có thêm một góc nhìn về quản lý thông tin và thấy rõ: có bài chỉ cần quy trình hoặc rule là đủ. |
+| Pitch Problem Card | Trình bày bài email-to-calendar, tập trung vào lúc phải đọc email rồi tự nhặt ngày giờ để nhập lịch. | Câu hỏi “rule/filter đã đủ chưa?” khiến nhóm nói kỹ hơn về bước người dùng cần xác nhận để không tạo lịch sai. |
+| Challenge bài của bạn khác | Đặt câu hỏi về bước nào thật sự cần AI, bước nào có thể làm bằng rule trước; đồng thời nhắc đến rủi ro nếu hệ thống tự kết luận hoặc tự sửa. | Nhóm bớt nhìn Agent như lựa chọn mặc định và bắt đầu so sánh Rule, Workflow, Agent trên cùng một bài. |
+| Gom trùng / cluster | Hỗ trợ nhóm đọc các ý theo người gặp vấn đề, quy trình và điểm nghẽn, thay vì chỉ chọn ý nghe hấp dẫn. | Nhờ vậy, cụm dataset và tracking QA nổi lên vì scope hẹp, dễ đo và có dữ liệu để thử. |
+| Chọn candidate problem | Đề xuất chọn ID switch vì phần mệt nhất là tìm đoạn lỗi chứ không phải thao tác đổi ID. | Nhóm thu hẹp solution thành việc đánh dấu và xếp hạng đoạn nghi vấn cho người xem, không tự sửa toàn bộ annotation. |
+| Validation / research | Rà các link survey MOT, nghiên cứu video tagging, CVAT, ByteTrack, CLIP-ReID, Ultralytics và TrackEval. | Research giúp nhóm có nền tảng, nhưng cũng nhắc cả nhóm rằng vẫn thiếu bấm giờ thực tế, ground truth và ý kiến độc lập. |
+| Workflow nhóm | Hỗ trợ phác workflow trước/sau, chỉ ra chỗ phải xem tuần tự rồi tua lại nhiều lần. | Bước review của người được đặt ngay trước khi sửa, và vẫn có đường quay về rule-only hoặc review tay nếu model không ổn. |
+| Problem Statement | Hỗ trợ làm rõ ai dùng, AI xuất hiện ở bước nào, cần đo gì và không được làm gì. | Bản v1 không còn hứa chung chung rằng “AI sẽ phát hiện và sửa” trên cả dataset. |
+| Rule / Workflow / Agent | So sánh rule tạo candidate với workflow có ReID scoring và một Agent có quyền tự hành động. | Nhóm chọn workflow cố định vì dễ kiểm tra hơn và không vượt quá phạm vi pilot. |
+| Decision | Đề xuất giữ kết luận Not Yet thay vì vội Go. | Nhóm có điều kiện cụ thể để đi tiếp: ground truth review chéo, benchmark rule-only và kết quả cải thiện có thể đo. |
 
 **Dấu tay rõ nhất của tôi trong artifact cuối (1-2 câu):**
 
