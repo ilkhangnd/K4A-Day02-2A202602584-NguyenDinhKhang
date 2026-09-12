@@ -22,7 +22,7 @@
 
 | # | Lăng kính (Lặp lại / Tốn thời gian / AI có thể tốt hơn / Pain từ người khác) | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật (số + bằng chứng) |
 |---|--------|---|---|---|
-| 1 | Lặp lại / Tốn thời gian | Phải kiểm tra email thường xuyên để tìm/phân loại thông báo họp/gặp mặt rồi note lại vào lịch cá nhân | Sinh viên tham gia nhiều môn học, CLB/BTC, project và thường xuyên họp; hoặc trưởng nhóm/BTC nếu thành viên bỏ sót lịch hoặc phản hồi chậm. | Nhóm người dùng email nhiều nhất dành 8,8 giờ/tuần cho email; 62% người được khảo sát nói họ mất quá nhiều thời gian tìm thông tin. **Nguồn tham khảo:** [Microsoft Work Trend Index 2023](https://info.microsoft.com/rs/157-GQE-382/images/SREVM16705-CNTNT.pdf). |
+| 1 | Lặp lại / Tốn thời gian | Phải kiểm tra email thường xuyên để tìm/phân loại thông báo họp/gặp mặt rồi note lại vào lịch cá nhân | Sinh viên tham gia nhiều môn học, CLB/BTC, project và thường xuyên họp; hoặc trưởng nhóm/BTC nếu thành viên bỏ sót lịch hoặc phản hồi chậm. | Nhóm người dùng email nhiều nhất dành 8,8 giờ/tuần cho email; 62% người được khảo sát nói họ mất quá nhiều thời gian tìm thông tin. Nguồn tham khảo: [Microsoft Work Trend Index 2023](https://info.microsoft.com/rs/157-GQE-382/images/SREVM16705-CNTNT.pdf). |
 | 2 | Tốn thời gian / AI có thể tốt hơn | Mỗi lần báo cáo project hoặc tiến độ công việc, đòi hỏi phải nhớ lại và tổng hợp các đầu mục công việc đã hoàn thành | Thành viên project/đồ án phải báo cáo; hoặc team leader/PM/mentor cần progress để ra quyết định. | Asana khảo sát 9.615 knowledge workers; khoảng 58% ngày làm việc là “work about work”, và người được khảo sát ước tính quy trình tốt hơn có thể tiết kiệm 4,9 giờ/tuần. **Nguồn tham khảo:** [Asana Anatomy of Work Global Index 2023](https://investors.asana.com/news-releases/news-release-details/asana-anatomy-work-global-index-2023-smart-collaboration-and/). |
 | 3 | Lặp lại | Copy nội dung từ các file PDF sang phần mềm chỉnh sửa khác như Word/Docs rồi chỉnh lại format cho đồng bộ cách thủ công | Sinh viên viết báo cáo, assignment, nghiên cứu; hoặc thành viên khác cùng chỉnh sửa tài liệu nếu format không đồng nhất. | Adobe khảo sát 1.118 người đi làm tại Mỹ: 71% nói tổ chức tài liệu số kém làm họ khó làm việc hiệu quả; hơn 1/10 người dành quá 4 giờ/tuần để tìm tài liệu số. Đây là benchmark về quản lý tài liệu số nói chung, không riêng PDF → Word. **Nguồn tham khảo:** [Adobe Acrobat research](https://blog.adobe.com/en/publish/2023/09/29/how-digital-organization-impacts-employees-workplace). |
 | 4 | Lặp lại / Pain | Sinh viên phải tự kiểm tra deadline mỗi ngày và tính việc nào gần tới hạn | Sinh viên có nhiều môn, project, hoạt động ngoại khóa và deadline song song; hoặc nhóm/project nếu thành viên trễ task làm chậm dependency. | Nghiên cứu trên IEEE Transactions on Learning Technologies cho thấy reminder deadline làm tỷ lệ nộp bài tăng 3,7% trong experiment 1; experiment lớn hơn ghi nhận mức tăng 5,7% về tỷ lệ submission. **Nguồn tham khảo:** [Automated Educative Nudges to Reduce Missed Assignments in College](https://doi.org/10.1109/TLT.2021.3064613). |
@@ -140,9 +140,7 @@ Benchmark: Microsoft: 11 phút 13 giây với Copilot cho cùng tác vụ.
 Fallback: Nếu AI không chắc owner/deadline hoặc bỏ sót nội dung hiển thị transcript gốc và yêu cầu người dùng xác nhận.
 ```
 
-**Photocard Card #1 — Biên bản họp có AI hỗ trợ:**
-
-![Photocard Card 1: Meeting → Transcript → AI summarize → Human review → Confirm + send](photocard-card-1-meeting-minutes-workflow.png)
+File đính kèm (nếu vẽ riêng): `01-individual-problem-scan-workflow-card-1.png`
 
 ---
 
@@ -228,9 +226,7 @@ FUTURE STATE
 Fallback: Email có thông tin mơ hồ hoặc AI confidence thấp → không tự tạo event, yêu cầu người dùng xác nhận.
 ```
 
-**Photocard Card #2 — Email thành lịch Calendar:**
-
-![Photocard Card 2: New email → AI classify/extract → Draft event → User review → Add to Calendar](photocard-card-2-email-calendar-workflow.png)
+File đính kèm: `01-individual-problem-scan-workflow-card-2.png`
 
 ---
 
@@ -321,9 +317,7 @@ Nếu error → AI summarize/explain log
 Fallback: Nếu monitoring service lỗi, user vẫn truy cập trực tiếp terminal/log như hiện tại.
 ```
 
-**Photocard Card #3 — Theo dõi job build/train/test:**
-
-![Photocard Card 3: Start job → Automatic monitoring → Job status → User review → AI explain error](photocard-card-3-job-monitoring-workflow.png)
+File đính kèm: `01-individual-problem-scan-workflow-card-3.png`
 
 ---
 
@@ -354,10 +348,12 @@ Microsoft Work Trend Index cho thấy nhóm 25% người dùng email nhiều nh�
 ```
 
 **AI phản biện Card (nếu có):**
-- Điểm yếu AI chỉ ra: card dễ bị solution-first; phần lớn email có cấu trúc có thể xử lý bằng rule/filter, còn lỗi ngày giờ hoặc email mơ hồ có hậu quả trực tiếp lên lịch.
-- Tôi sửa gì: hạ phạm vi xuống phân loại và tạo **draft** event; chỉ dùng AI cho trường hợp khó, không tạo event tự động khi thông tin thiếu hoặc confidence thấp.
+- Điểm yếu AI chỉ ra: Card dễ bị solution-first; phần lớn email có cấu trúc có thể xử lý bằng rule/filter, còn lỗi ngày giờ hoặc email mơ hồ có hậu quả trực tiếp lên lịch.
+- Tôi sửa gì: Hạ phạm vi xuống phân loại và tạo draft event; chỉ dùng AI cho trường hợp khó, không tạo event tự động khi thông tin thiếu hoặc confidence thấp.
 
 ### Self-check nộp phần 01
 - [X] Có 5+ problems + top 3 Cards đủ field
 - [X] Mỗi Card có workflow trước/sau + bottleneck + metric + fallback
 - [X] Đã chọn 1 card pitch + câu hỏi challenge
+
+
