@@ -279,7 +279,7 @@ AI chỉ nên được thêm vào bước sau: Khi job lỗi → AI đọc log �
 Quick gut:
 [ ] No AI / process fix
 [x] Rule
-[x] Workflow
+[ ] Workflow
 [ ] Agent
 [ ] Chưa biết
 ```
@@ -361,4 +361,3 @@ Microsoft Work Trend Index cho thấy nhóm 25% người dùng email nhiều nh�
 - [X] Có 5+ problems + top 3 Cards đủ field
 - [X] Mỗi Card có workflow trước/sau + bottleneck + metric + fallback
 - [X] Đã chọn 1 card pitch + câu hỏi challenge
-

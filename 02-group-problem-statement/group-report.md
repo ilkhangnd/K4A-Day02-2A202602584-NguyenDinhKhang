@@ -17,7 +17,7 @@ Sinh viên/AI Engineer làm multi-object tracking phải xem và đối chiếu 
 
 ---
 
-## Phase 3 — Group Convergence: từ 9-12 candidates về 1
+## Phase 3 — Group Convergence: từ 15 candidates về 1
 
 ### 3.1. Trình bày top 3 mỗi người (mỗi candidate 1-2 phút)
 
@@ -41,7 +41,7 @@ Sinh viên/AI Engineer làm multi-object tracking phải xem và đối chiếu 
 
 Nhìn nhanh để chuẩn bị bước shortlist: các candidate nổi bật nhất hiện tại là #10 Prompt Regression, #12 Production Hallucination Filtering, #14 AI Root-cause Debugging, #6 ID Switch Detection, và #5 Annotation QA. Đây là các bài có cả pain rõ, workflow đo được và lý do dùng AI tương đối thuyết phục. Các bài #3, #7, #9, #11 lại là ví dụ tốt để chứng minh nhóm không cố dùng AI cho mọi vấn đề.
 
-### 3.2. Gom trùng / cluster (gom 9-12 ý thành 3-4 cụm)
+### 3.2. Gom trùng / cluster (gom 15 ý thành 4 cụm)
 
 | Cluster | Candidates included | Pattern chung | Ghi chú |
 | --- | --- | --- | --- |
@@ -69,7 +69,7 @@ Nhìn nhanh để chuẩn bị bước shortlist: các candidate nổi bật nh�
 **Candidate nhóm chọn (1 bài duy nhất):**
 
 ```
-Phát hiện và sửa ID switch giữa các frame
+Phát hiện và hỗ trợ sửa ID switch giữa các frame
 
 ```
 
@@ -153,7 +153,7 @@ Research MOT xác nhận che khuất và biến đổi ngoại hình/chuyển đ
 
 ### 5.1. Current workflow bản nhóm
 
-Dán workflow hoặc link file: `02-group-problem-statement-workflow.png/pdf/md`
+Workflow được trình bày trực tiếp bên dưới.
 
 ```text
 [1 Chạy tracker/xuất annotation: ~5' - AI Engineer] → [2 Mở video và track: ~3'] → [3 Xuất hiện giao nhau/che khuất hoặc mất–tái xuất hiện detection] → [4 Xem tuần tự để tìm đoạn có vấn đề: ~25' - bottleneck] → [5 Tua lại và đối chiếu trước/sau: ~10'] → [6 Xác nhận frame bắt đầu switch: ~3'] → [7 Sửa ID + lưu file: ~4'] → [8 Kiểm tra metric/QA lại: chưa đo]
@@ -332,7 +332,7 @@ Dừng bước AI và quay về rule-only hoặc review thủ công nếu recall
 
 ### Self-check nộp phần 02 (nhóm)
 
-- [x] Có nhật ký hội tụ 9-12 → 1 (cluster + shortlist + score)
+- [x] Có nhật ký hội tụ 15 → 1 (cluster + shortlist + score)
 - [ ] Có validation (quote thật) + research (link kiểm được) — research link đã kiểm được và self-report đã ghi theo dạng tóm tắt, nhưng còn thiếu quote nguyên văn đã được data owner xác nhận hoặc interview/survey độc lập.
 - [x] Có workflow trước/sau đủ thời gian, handoff, bottleneck, boundary, fallback
 - [x] Có PS v0 → v1, metric có trước/sau + cách đo, boundary có làm/không làm
